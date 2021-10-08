@@ -1,5 +1,6 @@
 import Images from './Images';
 import React, { useState, useEffect } from 'react'
+//add pop up for bio and make class toggle visible and invisible 
 
 function Card({character}) {
 
