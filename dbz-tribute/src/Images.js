@@ -13,7 +13,7 @@ const Images = {
         "krillin": "https://i.ytimg.com/vi/RdsSAxgcjno/maxresdefault.jpg",
         "jiren": "https://www.fightersgeneration.com/nf6/char/jiren-babyface.jpg",
         "tien": "https://comicvine.gamespot.com/a/uploads/square_medium/1/14431/5732779-3127427154--Tien.jpg",
-        "android 17": "https://lh3.googleusercontent.com/proxy/CSkOjB6M-gUKOnas6AD9kWRgX8uG5s7ewHibKqjxcmiM0m9bhD7OpyS74-3Tkh_jFNFmVpeaFLTzdm0J7ssXT-m9pzvXj5jPo7jMfaed",
+        "android 17": "https://www.anime-planet.com/images/characters/thumbs/2520.jpg?t=1561328829",
         "android 18": "https://img.sharetv.com/shows/episodes/standard/662369.jpg",
         "broly": "https://pbs.twimg.com/media/Du_j-8yX0AAMF-8.jpg",
         "vegito": "https://memegenerator.net/img/images/11654774.jpg",
