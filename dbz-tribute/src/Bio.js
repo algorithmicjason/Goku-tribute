@@ -1,10 +1,13 @@
 import React from 'react'
 
-const Bio = (props) => {
+const Bio = ({props}) => {
     // debugger
-    // console.log(props.props.bio)
+    // console.log(props.bio)
+    return(
     <div className="Bio__Popup">
-        {/* <h1>hello</h1> */}
+        <h1>{props.name}</h1>
+        <p>{props.bio}</p>
     </div>
+    )
 }
 export default Bio;
