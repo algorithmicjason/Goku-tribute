@@ -12,12 +12,7 @@ function Card({character}) {
     })
 
     const openCard = () => {
-        // debugger
         popup === null ? setPopup(`${character.id}`) : setPopup(null)
-        
-        // popup === e.target.value ? setPopup(character) 
-        // setPopup(character.id)
-        
     }
 
 
