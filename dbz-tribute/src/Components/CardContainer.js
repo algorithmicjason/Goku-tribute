@@ -7,7 +7,7 @@ function CardContainer() {
 const url = ('https://raw.githubusercontent.com/andrewbaisden/dragonball-character-database/master/client/db.json')
 
 const [DBZData, updateDBZData] = useState([]);
-const [background, updateBackground] = useState(null);
+// const [background, updateBackground] = useState(null);
 
 const fetchData = async () => {
     let data = await fetch(url);
@@ -26,7 +26,9 @@ useEffect(() => {
 
     return (
         <div>
-            <SearchBar />
+            <div >
+                {DBZData.length < 1 ? null : <SearchBar DBZData={DBZData} />}
+            </div>
             <div className='container'>
                 {DBZData.map(character => <Card character={character} key={character.id} />)}
             </div>
